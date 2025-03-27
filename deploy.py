@@ -9,7 +9,7 @@ files_to_upload = ["NFC_PN532.py", "OLED_TEST.py", "PN532.py", "SSD1306.py"]
 with open("main_template.py", "r") as f:
     template = f.read()
 
-for device_id in range(16, 57):  # Deploying to devices 16 to 56
+for device_id in range(17, 57):  # Deploying to devices 16 to 56
     print(f"Deploying to device {device_id}...")
 
     # Replace placeholder with actual device_id
